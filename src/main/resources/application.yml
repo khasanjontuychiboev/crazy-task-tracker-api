@@ -8,3 +8,6 @@
       url: jdbc:postgresql://localhost/crazy-task-tracker
       username: postgres
       password: 1234
+    jpa:
+      hibernate:
+        ddl-auto: update
